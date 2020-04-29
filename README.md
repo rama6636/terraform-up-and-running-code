@@ -1,5 +1,7 @@
 # Terraform: Up & Running Code
 
+This repo is the Elephant Scale's fork that we use for training. It is based on the one by Yevgeniy Brikman, as below.
+
 This repo contains the code samples for the book *[Terraform: Up and Running](http://www.terraformupandrunning.com)*,
 2nd edition, by [Yevgeniy Brikman](http://www.ybrikman.com).
 
@@ -36,3 +38,7 @@ for the code examples from the 1st edition, please head over to the
 ## License
 
 This code is released under the MIT License. See LICENSE.txt.
+
+## To maintain this repo by pulling from the upstream, do this
+    git pull https://github.com/brikis98/terraform-up-and-running-code.git master
+    
