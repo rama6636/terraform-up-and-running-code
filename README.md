@@ -25,20 +25,11 @@ The example code in *Terraform: Up and Running* are mostly for Amazon Web Servic
 to translate these examples to their equivalents on other cloud providers, such as Google Cloud and Azure, here:
 https://github.com/mjuenema/Terraform-Up-and-Running-Code-Samples-Translated/. 
 
-
-
-## Looking for the 1st edition?
-
-All the code examples in the `master` branch are for the 2nd edition of *Terraform: Up & Running*. If you're looking
-for the code examples from the 1st edition, please head over to the 
-[1st-edition branch](https://github.com/brikis98/terraform-up-and-running-code/tree/1st-edition).
-
-
-
 ## License
 
 This code is released under the MIT License. See LICENSE.txt.
 
 ## To maintain this repo by pulling from the upstream, do this
+
     git pull https://github.com/brikis98/terraform-up-and-running-code.git master
     
