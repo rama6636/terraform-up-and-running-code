@@ -1,4 +1,4 @@
-# Terraform: Up & Running Code
+# Terraform: Up & Running Labs
 
 This repo is the Elephant Scale's fork that we use for training. It is based on the one by Yevgeniy Brikman, as below.
 
