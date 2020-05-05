@@ -15,7 +15,7 @@ Please note that this code was written for Terraform 0.12.x.
 
 ### Step 1
 
-* Write the `main.tf` file based on the slides covered in the previous section
+* Write the `main.tf` file based on the slides covered in the slide section "Introduction to Terraform"
 
 ### Step 2
 
