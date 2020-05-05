@@ -1,7 +1,10 @@
-# Server with Configuration
+# Server Configuration with Variables
 
 This folder contains an example [Terraform](https://www.terraform.io/) configuration that deploys a web server (using 
 [EC2](https://aws.amazon.com/ec2/)), in an [Amazon Web Services (AWS) account](http://aws.amazon.com/). 
+
+For more info, please see Chapter 1, "Why Terraform", of 
+*[Terraform: Up and Running](http://www.terraformupandrunning.com)*.
 
 ## Pre-requisites
 
@@ -10,23 +13,21 @@ This folder contains an example [Terraform](https://www.terraform.io/) configura
 
 Please note that this code was written for Terraform 0.12.x.
 
-## Quick start
-
 ### Step 1
-* Modify the `main.tf` code to include all improvements mentioned in the slides
+
+* Write the `main.tf` file based on the slides covered in the previous section
 
 ### Step 2
-* Deploy the code:
 
+* Deploy and verify the configuration using the steps below
 ```
 terraform init
 terraform apply
 ```
 
-### Step 3
-* Experiment with all 4 ways of giving the value for the `server_port` variable
+* DO NOT run the `main.tf` given here - it is only for your reference if you get stuck
 
-### Step 4
+### Step 3
 
 * Clean up when you're done:
 
