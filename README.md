@@ -6,7 +6,9 @@ This repo contains the code samples for the book *[Terraform: Up and Running](ht
 2nd edition, by [Yevgeniy Brikman](http://www.ybrikman.com).
 
 
+## Labs
 
+All labs are in the `labs` folder. There are accompanying slides explaning what to do in the labs, inquire at Elephant Scale :)
 
 ## Quick start
 
