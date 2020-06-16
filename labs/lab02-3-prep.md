@@ -23,9 +23,9 @@
 
     nohup busybox httpd -f -p 8080
 
-## Step 4: Verify each instances
+## Step 4: Verify each instance
 * First verify within the instance with `curl`
-* Verify in the browser
+* Then verify in the browser
 
 ## Step 5: Create a load balancer
 * Put the two instances created earlier as targets
