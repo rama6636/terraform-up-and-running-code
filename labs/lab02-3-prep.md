@@ -21,7 +21,12 @@
 * Use the same login key for both
 * Login into each instance and start the web server response
 
-    nohup busybox httpd -f -p 8080
+run.sh
+
+  #!/bin/bash
+            echo "Hello, World" > index.html
+            nohup busybox httpd -f -p 8080 &
+
 
 ## Step 4: Verify each instance
 * First verify within the instance with `curl`
