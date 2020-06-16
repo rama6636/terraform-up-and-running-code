@@ -20,6 +20,7 @@
 * Launch two instances (micro instances are enough) in the security group created in the previous step
 * Use the same login key for both
 * Login into each instance and start the web server response
+* (Most AWS images accept `ubuntu` or `ec2-user` as user names)
 * Put the following into `run.sh`
 
             #!/bin/bash
