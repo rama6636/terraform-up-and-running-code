@@ -20,13 +20,13 @@
 * Launch two instances (micro instances are enough) in the security group created in the previous step
 * Use the same login key for both
 * Login into each instance and start the web server response
+* Put the following into `run.sh`
 
-run.sh
-
-  #!/bin/bash
+            #!/bin/bash
             echo "Hello, World" > index.html
             nohup busybox httpd -f -p 8080 &
-
+* Make it executable: `chmod +x run.sh`
+* `./run.sh`
 
 ## Step 4: Verify each instance
 * First verify within the instance with `curl`
