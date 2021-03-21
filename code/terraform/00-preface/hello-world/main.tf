@@ -1,12 +1,21 @@
 terraform {
-  required_version = ">= 0.12, < 0.14.6"
+  required_providers {
+    mycloud = {
+      source  = "hashicorp/aws"
+      version = ">= 1.0"
+    }
+  }
+}
+
+terraform {
+  required_version = ">= 0.12, <= 0.14.8"
 }
 
 provider "aws" {
   region = "us-east-2"
 
   # Allow any 2.x version of the AWS provider
-  version = "~> 2.0"
+#  version = "~> 2.0"
 }
 
 resource "aws_instance" "example" {
