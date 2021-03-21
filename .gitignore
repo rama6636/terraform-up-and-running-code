@@ -3,3 +3,5 @@
 .terraform
 *.iml
 .idea/
+.terraform.lock.hcl
+
