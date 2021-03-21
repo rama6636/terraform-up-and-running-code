@@ -7,7 +7,7 @@ Install terraform and run the first script
 None
 
 ### Run time
-10 minutes
+30 minutes
 
 ## You will follow the slides
 
@@ -22,4 +22,4 @@ None
 * Verify the results in the AWS console
 * Run `terraform destroy`
 ## Step 4:
-* Inform the instructor that you are done 
+* Congratulations on completing your first Terraform lab
