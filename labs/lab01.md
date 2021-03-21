@@ -14,7 +14,7 @@ None
 ## Step 1: Create an AWS account
 ## Step 2: Install `terraform`
 ## Step 3: 
-* Create a folder `labs\lab01` on your computer
+* Create a folder `labs/lab01` on your computer
 * Place the `main.tf` file in this folder
 * Run `terraform init`
 * Run `terraform plan`
