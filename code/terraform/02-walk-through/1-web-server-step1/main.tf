@@ -19,10 +19,20 @@ resource "aws_instance" "app" {
 
   user_data = <<-EOF
               #!/bin/bash
-              sudo service apache2 start
+              echo "Hello, World" > index.html
+              nohup busybox httpd -f -p 8080 &
               EOF
+
   tags = {
     Name = "terraform-web-server"
   }
 }
+
+# What's missing? Security group!
+
+# Web server alternative
+#user_data = <<-EOF
+#              #!/bin/bash
+#              sudo service apache2 start
+#              EOF
 
